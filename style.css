@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header p{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    position: fixed;
+    top:225px;
+
+}
+ul{
+    display: flex;
+    padding: 0px;
+}
+li{
+    padding: 0px 10px;
+    list-style: none;
+}
+li img{
+    height: auto;
+    width: 20px;
+}

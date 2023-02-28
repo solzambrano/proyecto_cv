@@ -5,10 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="'./js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script defer src="./js/index.js"></script>
     <title>Curriculum</title>
 </head>
 <body>
-    <p>hola viteh</p>
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <p><img id="userPhoto"src='./assets/foto.jpg'/></p>
+    <nav>
+        <ul>
+            <li><img class='icon' alt='user' src='./assets/svgIcons/user.svg'/></li>
+            <li><img class='icon' alt='calendar' src='./assets/svgIcons/calendar.svg'/></li>
+            <li><img class='icon' alt='message' src='./assets/svgIcons/message.svg'/></li>
+            <li><img class='icon' alt='phone' src='./assets/svgIcons/phone.svg'/></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section>
+        <article id="user"style='display:none'>
+            <p>Hi mi name is</p>
+            <p>Jesus Flores</p>
+        </article>
+        <article id="calendar" style='display:none'>
+           <p>My birthday is</p>
+           <p>3/6/1987</p>
+        </article>
+        <article id="message" style='display:none'>
+             <p>My direction email is:</p>
+            <p>jesus.flores@example.com</p>
+        </article>
+        <article id="phone" style='display:none'>
+            <p>My phone number is</p>
+            <p>(579) 963-9424</p>
+        </article>
+    </section>
+</main>
+<section id="proyectos">
+    <h2>Proyectos importantes</h2>
+    <article> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio maxime porro veniam itaque soluta magni, repellat suscipit ad quos deserunt necessitatibus explicabo totam enim quidem fugiat, modi voluptas, voluptate consectetur?</p>
+    </article>
+    <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt exercitationem nisi, hic quas repudiandae debitis nobis veritatis illo dignissimos, non consequatur. Quisquam neque natus possimus sunt exercitationem excepturi qui.</p></article>
+    <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus mollitia laboriosam quam exercitationem cupiditate impedit sed qui alias totam natus sapiente ex, quas soluta harum distinctio perspiciatis doloribus quae corporis!</p></article>
+</section>
 </body>
+
 </html>

@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header p{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    position: fixed;
+    top:225px;
+
+}
+ul{
+    display: flex;
+    padding: 0px;
+}
+li{
+    padding: 0px 25px;
+    list-style: none;
+}
+li img{
+    height: auto;
+    width: 20px;
+}
+section{
+    position: fixed;
+    top:300px;
+    right: 35%;
+}
+#proyectos{
+        position: fixed;
+    top:300px;
+    width: 80%;
+    right: 0%;
+}

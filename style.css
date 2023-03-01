@@ -14,10 +14,12 @@ header div{
 }
 #userPhoto {
     text-align: center;
+    border-radius: 50%;
 }
 h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: brown;
 }
 nav{
    display: flex;
@@ -32,14 +34,34 @@ li{
     padding: 0px 25px;
     list-style: none;
 }
-li img{
+.icon{
     height: auto;
     width: 20px;
 }
 section{
  text-align: center;
 }
+article p:first-of-type + p{
+    font-size: x-large;
+}
+article p:second-of-type +p{
+    font-size: larger;
+}
 #proyectos{
     position: fixed;
     width: 90%;
+}
+h2,h4{
+    color: brown;
+}
+#proyectos article{
+    text-align: left;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+section a{
+    padding: 5px;
 }
